@@ -1,0 +1,16 @@
+.portfolio {
+  padding: 100px 0;
+  background: #f6f6f6;
+
+  &__img {
+    margin: 70px 0 50px;
+  }
+
+  &__link {
+    // display: flex;
+    // justify-content: center;
+    @include df-jcc;
+    font-size: 18px;
+    text-decoration-line: underline;
+  }
+}

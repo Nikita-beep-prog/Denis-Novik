@@ -1,0 +1,9 @@
+@mixin df-jcsb {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin df-jcc {
+  display: flex;
+  justify-content: center;
+}

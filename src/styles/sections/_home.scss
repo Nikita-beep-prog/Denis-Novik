@@ -1,0 +1,21 @@
+.home {
+  padding: 50px 0 100px 0;
+
+  &__block {
+    // display: flex;
+    // justify-content: space-between;
+    @include df-jcsb;
+    align-items: end;
+    margin-bottom: 30px;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 47.339px;
+  }
+
+  &__information {
+    font-weight: 500;
+    font-size: 18px;
+  }
+}

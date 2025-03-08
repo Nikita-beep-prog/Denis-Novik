@@ -1,0 +1,26 @@
+.contacts {
+  padding: 100px 0;
+
+  &__subtitle {
+    margin: 50px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+  &__button {
+    display: block;
+    margin: 0 auto;
+    width: 174.3px;
+    height: 38px;
+    background: #070707;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+  }
+  &__links {
+    margin-top: 66px;
+    // display: flex;
+    // justify-content: center;
+    @include df-jcc;
+    gap: 60px;
+  }
+}
